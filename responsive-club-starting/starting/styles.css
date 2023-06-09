@@ -1,0 +1,154 @@
+html{
+    font-size: 16px;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0 auto;
+    background:linear-gradient(0deg,#008080 70%,#ECFFDC);
+}
+.box{
+    width:22.5rem;
+    height:18.75rem;
+}
+
+.headshot{
+    height: 20rem;
+    width: 17.5rem;
+}
+
+/*Header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    font-size: 2rem;
+    padding: 0 1.2rem;
+    color: #C96C05;
+}
+
+.header .button{
+    height: 3.125rem;
+    width: 9.375rem;
+    border: 1px solid #C96C05;
+    border-radius: 1rem;
+    margin-right: 1.25rem;
+    background-color: #C96C05;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/*hero*/
+
+.hero{
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 4rem;
+}
+
+.hero h2{
+    font-size: 2rem;
+}
+
+.hero h3{
+    font-size: 1.25rem;
+}
+
+/*main*/
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 2rem;
+}
+.main img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.main h3{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/*message*/
+.message{
+    margin: 4rem 4rem 2rem 4rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-image: url(../resources/hero-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.join-box{
+    border: 1px solid #E33535;
+    border-radius: 5rem;
+    width: 25rem;
+    text-align: center;
+    background-color:#E52F2F;
+    opacity: 0.9;
+}
+
+.message h2{
+    font-size: 3rem;
+}
+.message p{
+    font-size: 1.5rem;
+}
+
+/*people*/
+.people img{
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+}
+.about-us{
+    text-align: center;
+    height: 30rem;
+}
+.about-us h2{
+    font-size: 2rem;
+}
+
+.people{
+    display: flex;
+    justify-content: space-evenly;
+}
+.people h2{
+    margin: 0.75rem 0 0 0;
+    font-size: 2rem;
+}
+.people h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+/*Footer*/
+footer{
+    padding-left:2rem;
+}
+
+footer h3{
+    font-size: 1.5rem;
+}
+footer p{
+    font-size: 1.2rem;
+}
